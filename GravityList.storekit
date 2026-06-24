@@ -1,0 +1,44 @@
+{
+  "identifier" : "F1A2B3C4",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_applicationInternalID" : "",
+    "_developerTeamID" : "",
+    "_lastSynchronizedDate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21490001",
+      "localizations" : [],
+      "name" : "GravityList Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6740000001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock subtasks, gravity strength control, and future premium features.",
+              "displayName" : "GravityList Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.gravitylist.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "GravityList Pro Monthly",
+          "subscriptionGroupID" : "21490001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

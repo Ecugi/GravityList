@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4000000000000000000001 /* GravityListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000000000000000000001 /* GravityListApp.swift */; };
+		4000000000000000000002 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000000000000000000002 /* PersistenceController.swift */; };
+		4000000000000000000003 /* CoreDataEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000000000000000000003 /* CoreDataEntities.swift */; };
+		4000000000000000000004 /* GravityWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000000000000000000004 /* GravityWeight.swift */; };
+		4000000000000000000005 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000000000000000000005 /* TaskItem.swift */; };
+		4000000000000000000006 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000000000000000000006 /* HapticsManager.swift */; };
+		4000000000000000000007 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000000000000000000007 /* StoreManager.swift */; };
+		4000000000000000000008 /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000000000000000000008 /* CanvasViewModel.swift */; };
+		4000000000000000000009 /* GravityScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000000000000000000009 /* GravityScene.swift */; };
+		400000000000000000000A /* TaskNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000A /* TaskNode.swift */; };
+		400000000000000000000B /* GravityCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000B /* GravityCanvasView.swift */; };
+		400000000000000000000C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000C /* RootView.swift */; };
+		400000000000000000000D /* AddTaskSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000D /* AddTaskSheet.swift */; };
+		400000000000000000000E /* TaskDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000E /* TaskDetailSheet.swift */; };
+		400000000000000000000F /* MergePromptSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300000000000000000000F /* MergePromptSheet.swift */; };
+		4000000000000000000010 /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000000000000000000010 /* ListScreen.swift */; };
+		4000000000000000000011 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000000000000000000011 /* SettingsScreen.swift */; };
+		4000000000000000000012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3000000000000000000012 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3000000000000000000001 /* GravityListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityListApp.swift; sourceTree = "<group>"; };
+		3000000000000000000002 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		3000000000000000000003 /* CoreDataEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataEntities.swift; sourceTree = "<group>"; };
+		3000000000000000000004 /* GravityWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityWeight.swift; sourceTree = "<group>"; };
+		3000000000000000000005 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		3000000000000000000006 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		3000000000000000000007 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		3000000000000000000008 /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
+		3000000000000000000009 /* GravityScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityScene.swift; sourceTree = "<group>"; };
+		300000000000000000000A /* TaskNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskNode.swift; sourceTree = "<group>"; };
+		300000000000000000000B /* GravityCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityCanvasView.swift; sourceTree = "<group>"; };
+		300000000000000000000C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		300000000000000000000D /* AddTaskSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskSheet.swift; sourceTree = "<group>"; };
+		300000000000000000000E /* TaskDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailSheet.swift; sourceTree = "<group>"; };
+		300000000000000000000F /* MergePromptSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergePromptSheet.swift; sourceTree = "<group>"; };
+		3000000000000000000010 /* ListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
+		3000000000000000000011 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		3000000000000000000012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3000000000000000000013 /* GravityList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GravityList.entitlements; sourceTree = "<group>"; };
+		3000000000000000000014 /* GravityList.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = GravityList.storekit; sourceTree = "<group>"; };
+		3000000000000000000099 /* GravityList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E00000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A00000000000000000002 /* GravityList */ = {
+			isa = PBXGroup;
+			children = (
+				3000000000000000000001 /* GravityListApp.swift */,
+				2000000000000000000001 /* Models */,
+				2000000000000000000002 /* Services */,
+				2000000000000000000003 /* ViewModels */,
+				2000000000000000000004 /* Views */,
+				3000000000000000000012 /* Assets.xcassets */,
+				3000000000000000000013 /* GravityList.entitlements */,
+				3000000000000000000014 /* GravityList.storekit */,
+				1A00000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A00000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3000000000000000000099 /* GravityList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2000000000000000000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3000000000000000000002 /* PersistenceController.swift */,
+				3000000000000000000003 /* CoreDataEntities.swift */,
+				3000000000000000000004 /* GravityWeight.swift */,
+				3000000000000000000005 /* TaskItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2000000000000000000002 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3000000000000000000006 /* HapticsManager.swift */,
+				3000000000000000000007 /* StoreManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2000000000000000000003 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3000000000000000000008 /* CanvasViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2000000000000000000004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3000000000000000000009 /* GravityScene.swift */,
+				300000000000000000000A /* TaskNode.swift */,
+				300000000000000000000B /* GravityCanvasView.swift */,
+				300000000000000000000C /* RootView.swift */,
+				300000000000000000000D /* AddTaskSheet.swift */,
+				300000000000000000000E /* TaskDetailSheet.swift */,
+				300000000000000000000F /* MergePromptSheet.swift */,
+				3000000000000000000010 /* ListScreen.swift */,
+				3000000000000000000011 /* SettingsScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D00000000000000000001 /* GravityList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B00000000000000000002 /* Build configuration list for PBXNativeTarget "GravityList" */;
+			buildPhases = (
+				1E00000000000000000001 /* Sources */,
+				1E00000000000000000002 /* Frameworks */,
+				1E00000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravityList;
+			productName = GravityList;
+			productReference = 3000000000000000000099 /* GravityList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A00000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1D00000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 1B00000000000000000001 /* Build configuration list for PBXProject "GravityList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A00000000000000000002 /* GravityList */;
+			productRefGroup = 1A00000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D00000000000000000001 /* GravityList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E00000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4000000000000000000012 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E00000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4000000000000000000001 /* GravityListApp.swift in Sources */,
+				4000000000000000000002 /* PersistenceController.swift in Sources */,
+				4000000000000000000003 /* CoreDataEntities.swift in Sources */,
+				4000000000000000000004 /* GravityWeight.swift in Sources */,
+				4000000000000000000005 /* TaskItem.swift in Sources */,
+				4000000000000000000006 /* HapticsManager.swift in Sources */,
+				4000000000000000000007 /* StoreManager.swift in Sources */,
+				4000000000000000000008 /* CanvasViewModel.swift in Sources */,
+				4000000000000000000009 /* GravityScene.swift in Sources */,
+				400000000000000000000A /* TaskNode.swift in Sources */,
+				400000000000000000000B /* GravityCanvasView.swift in Sources */,
+				400000000000000000000C /* RootView.swift in Sources */,
+				400000000000000000000D /* AddTaskSheet.swift in Sources */,
+				400000000000000000000E /* TaskDetailSheet.swift in Sources */,
+				400000000000000000000F /* MergePromptSheet.swift in Sources */,
+				4000000000000000000010 /* ListScreen.swift in Sources */,
+				4000000000000000000011 /* SettingsScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C00000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C00000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C00000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GravityList.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gravitylist.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C00000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GravityList.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gravitylist.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B00000000000000000001 /* Build configuration list for PBXProject "GravityList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C00000000000000000001 /* Debug */,
+				1C00000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B00000000000000000002 /* Build configuration list for PBXNativeTarget "GravityList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C00000000000000000003 /* Debug */,
+				1C00000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A00000000000000000001 /* Project object */;
+}
